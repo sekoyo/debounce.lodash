@@ -1,0 +1,35 @@
+{
+  "name": "ts-debounce-throttle",
+  "version": "1.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/sekoyo/ts-debounce-throttle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sekoyo/ts-debounce-throttle.git"
+  },
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "NODE_ENV=development rollup -c rollup.config.ts --configPlugin typescript -w",
+    "build": "NODE_ENV=production rollup -c rollup.config.ts --configPlugin typescript",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-replace": "^5.0.5",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.11.5",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.4",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.9.6",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
+}
