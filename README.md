@@ -6,4 +6,4 @@ For when you only need Lodash's debounce and throttle but existing Typescript al
 import { debounce, throttle } from 'ts-debounce-throttle'
 ```
 
-All credits go to [lodash](https://lodash.com/). The functions are taken from there and Typescript'ed up and very slightly modified to reduce bundle size.
+The functions are almost identical to the lodash ones and the same tests pass.
