@@ -130,7 +130,7 @@ export function debounce<T extends (...args: any) => any>(
 
   // Bypass `requestAnimationFrame` by explicitly setting `wait=0`.
   const useRAF =
-    !wait && wait !== 0 && typeof global.requestAnimationFrame === 'function'
+    wait !== 0 && typeof global.requestAnimationFrame === 'function'
 
   if (typeof func !== 'function') {
     throw new TypeError('Expected a function')
@@ -355,8 +355,12 @@ export function throttle<T extends (...args: any) => any>(
   wait?: number,
   options: ThrottleSettings = {}
 ): DebouncedFunc<T> {
-  const leading = !!options.leading
+  const leading = options.leading ?? true
   const trailing = options.trailing ?? true
+
+  if (typeof func !== 'function') {
+    throw new TypeError('Expected a function')
+  }
 
   return debounce(func, wait, {
     leading,
