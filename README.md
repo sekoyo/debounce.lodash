@@ -3,6 +3,7 @@
 [![NPM](https://img.shields.io/npm/v/debounce-n-throttle.svg)](https://www.npmjs.com/package/debounce-n-throttle)
 ![Tests](https://github.com/sekoyo/debounce-n-throttle/actions/workflows/main.yml/badge.svg)
 ![Size](https://img.badgesize.io/sekoyo/debounce-n-throttle/master/dist/index.min.js)
+![GZip Size](https://img.badgesize.io/sekoyo/debounce-n-throttle/master/dist/index.min.js?compression=gzip)
 
 For when you only need Lodash's debounce and throttle but existing Typescript alternatives are poor imitations.
 
