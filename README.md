@@ -13,7 +13,7 @@ Only 609 bytes gzipped.
 import { debounce, throttle } from 'debounce.lodash'
 ```
 
-Or without a bundler:
+Or directly in the browser:
 
 ```ts
 import { debounce, throttle } from 'https://www.unpkg.com/debounce.lodash@1.0.0/dist/index.min.js'
