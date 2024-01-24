@@ -5,7 +5,7 @@
 ![Size](https://img.badgesize.io/sekoyo/debounce.lodash/master/dist/index.min.js)
 ![GZip Size](https://img.badgesize.io/sekoyo/debounce.lodash/master/dist/index.min.js?compression=gzip)
 
-For when you only need Lodash's debounce and throttle but existing Typescript alternatives are poor imitations.
+For when you only need Lodash's debounce and throttle but existing Typescript alternatives are poor imitations (poorly typed, poor API, use `setTimeout` instead of `requestAnimationFrame` which is much more accurate).
 
 Only 609 bytes gzipped.
 
