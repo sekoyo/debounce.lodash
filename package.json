@@ -1,5 +1,5 @@
 {
-  "name": "debounce-n-throttle",
+  "name": "debounce-and-throttle",
   "version": "1.0.2",
   "keywords": [
     "debounce",
@@ -13,10 +13,10 @@
   ],
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "homepage": "https://github.com/sekoyo/debounce-n-throttle",
+  "homepage": "https://github.com/sekoyo/debounce-and-throttle",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sekoyo/debounce-n-throttle.git"
+    "url": "https://github.com/sekoyo/debounce-and-throttle.git"
   },
   "license": "MIT",
   "scripts": {
