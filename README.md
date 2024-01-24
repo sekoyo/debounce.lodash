@@ -7,6 +7,8 @@
 
 For when you only need Lodash's debounce and throttle but existing Typescript alternatives are poor imitations.
 
+Only 609 bytes gzipped.
+
 ```ts
 import { debounce, throttle } from 'debounce-n-throttle'
 ```
