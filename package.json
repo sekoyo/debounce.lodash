@@ -1,6 +1,12 @@
 {
   "name": "debounce-n-throttle",
   "version": "1.0.1",
+  "keywords": [
+    "debounce",
+    "throttle",
+    "typescript",
+    "lodash"
+  ],
   "type": "module",
   "files": [
     "dist"
