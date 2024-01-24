@@ -1,5 +1,5 @@
 {
-  "name": "debounce-and-throttle",
+  "name": "lodash-debounce",
   "version": "1.0.0",
   "keywords": [
     "debounce",
@@ -13,10 +13,10 @@
   ],
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "homepage": "https://github.com/sekoyo/debounce-and-throttle",
+  "homepage": "https://github.com/sekoyo/lodash-debounce",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sekoyo/debounce-and-throttle.git"
+    "url": "https://github.com/sekoyo/lodash-debounce.git"
   },
   "license": "MIT",
   "scripts": {
